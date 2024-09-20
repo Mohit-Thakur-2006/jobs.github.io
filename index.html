@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <lnk rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.cssi">
+        
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Get<span class="hub">Jobs</span></div>
+        <nav class="navbar">
+            <a href="#">Find job</a>
+            <a href="#">Messages</a>
+            <a href="#">Hiring</a>
+            <a href="#">Community</a>
+            <a href="#">FAQ</a>
+        </nav>
+        <div class="profile">
+            <i class="fa fa-map-marker" id="location-icon"></i>
+            <span id="location">Haryana, Ind</span>
+        </div>
+    </header>
+
+    <section class="search-filters">
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search for a job...">
+            <select id="filter-type">
+                <option value="">All</option>
+                <option value="Full-time">Full-time</option>
+                <option value="Part-time">Part-time</option>
+            </select>
+            <select id="sort">
+                <option value="none">Sort by</option>
+                <option value="latest">Latest</option>
+            </select>
+        </div>
+    </section>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h3>Filters</h3>
+            <div class="filter-group">
+                <h4>Working Schedule</h4>
+                <input type="checkbox" id="fulltime"><label for="fulltime">Full-time</label>
+                <input type="checkbox" id="parttime"><label for="parttime">Part-time</label>
+            </div>
+        </aside>
+        
+        <aside class="sidebartrash">
+        </aside>
+
+        <main class="job-listings" id="job-listings">
+            <!-- Job cards will be injected here by JavaScript -->
+        </main>
+    </div>
+
+    <button id="show-more" class="show-more-button">Show More Jobs</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

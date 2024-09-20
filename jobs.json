@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Front End Developer",
+        "company": "Tech Solutions",
+        "location": "Mumbai, India",
+        "type": "Full-Time",
+        "posted": "2024-09-19"
+    },
+    {
+        "title": "Backend Engineer",
+        "company": "InnoTech",
+        "location": "Bangalore, India",
+        "type": "Contract",
+        "posted": "2024-09-15"
+    },
+    {
+        "title": "Data Scientist",
+        "company": "DataWave",
+        "location": "Hyderabad, India",
+        "type": "Part-Time",
+        "posted": "2024-09-12"
+    }
+]
